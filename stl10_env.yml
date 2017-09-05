@@ -1,0 +1,24 @@
+name: stl10 
+channels: !!python/tuple
+- !!python/unicode
+  'defaults'
+- 'conda-forge'
+dependencies:
+- python=3.6
+- numpy
+- jupyter
+- matplotlib
+- scikit-learn
+- pandas
+- scipy
+- opencv
+- pillow
+- bcolz
+- gensim
+- nltk
+- h5py
+- pip:
+  - xgboost
+  - tensorflow-gpu==1.2.0
+  - keras==1.2.2
+  - keras_tqdm
